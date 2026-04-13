@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="PySearch">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e9d5ff"/>
+      <stop offset="50%" style="stop-color:#a855f7"/>
+      <stop offset="100%" style="stop-color:#6366f1"/>
+    </linearGradient>
+  </defs>
+  <!-- Transparent background; no rect behind mark -->
+  <circle cx="128" cy="128" r="108" fill="none" stroke="url(#g)" stroke-width="10" opacity="0.85"/>
+  <path fill="url(#g)" d="M128 56c-28 0-52 22-54 50h36c1-9 9-16 18-16s17 7 18 16h36c-2-28-26-50-54-50zm-54 78v66c0 15 12 28 28 28h12v-40h-24v-54H74zm108 0h-24v54h-24v40h12c16 0 28-13 28-28v-66z"/>
+</svg>
