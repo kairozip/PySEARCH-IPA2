@@ -68,6 +68,10 @@
       display: flex;
       flex-direction: column;
     }
+    if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("service-worker.js");
+}
+
 
     /* ── TITLEBAR ── */
     #titlebar {
