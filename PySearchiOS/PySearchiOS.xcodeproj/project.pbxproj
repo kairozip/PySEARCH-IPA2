@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00100010000000000000001 /* PySearchiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200010000000000000001 /* PySearchiOSApp.swift */; };
+		A00100010000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200010000000000000002 /* ContentView.swift */; };
+		A00100010000000000000003 /* BrowserModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200010000000000000003 /* BrowserModels.swift */; };
+		A00100010000000000000004 /* SearchResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200010000000000000004 /* SearchResolver.swift */; };
+		A00100010000000000000005 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200010000000000000005 /* PersistenceService.swift */; };
+		A00100010000000000000006 /* AdBlockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200010000000000000006 /* AdBlockService.swift */; };
+		A00100010000000000000007 /* PluginLoaderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200010000000000000007 /* PluginLoaderService.swift */; };
+		A00100010000000000000008 /* VoiceSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200010000000000000008 /* VoiceSearchService.swift */; };
+		A00100010000000000000009 /* WebViewStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200010000000000000009 /* WebViewStore.swift */; };
+		A0010001000000000000000A /* BrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0020001000000000000000A /* BrowserView.swift */; };
+		A0010001000000000000000B /* BrowserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0020001000000000000000B /* BrowserViewModel.swift */; };
+		A0010001000000000000000C /* StartPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0020001000000000000000C /* StartPageView.swift */; };
+		A0010001000000000000000D /* TabSwitcherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0020001000000000000000D /* TabSwitcherView.swift */; };
+		A0010001000000000000000E /* BookmarksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0020001000000000000000E /* BookmarksView.swift */; };
+		A0010001000000000000000F /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0020001000000000000000F /* HistoryView.swift */; };
+		A00100010000000000000010 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200010000000000000010 /* SettingsView.swift */; };
+		A00100010000000000000011 /* AIAssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200010000000000000011 /* AIAssistantView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A00200010000000000000000 /* PySearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = PySearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00200010000000000000001 /* PySearchiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PySearchiOSApp.swift; sourceTree = "<group>"; };
+		A00200010000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A00200010000000000000003 /* BrowserModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserModels.swift; sourceTree = "<group>"; };
+		A00200010000000000000004 /* SearchResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResolver.swift; sourceTree = "<group>"; };
+		A00200010000000000000005 /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		A00200010000000000000006 /* AdBlockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBlockService.swift; sourceTree = "<group>"; };
+		A00200010000000000000007 /* PluginLoaderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginLoaderService.swift; sourceTree = "<group>"; };
+		A00200010000000000000008 /* VoiceSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceSearchService.swift; sourceTree = "<group>"; };
+		A00200010000000000000009 /* WebViewStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewStore.swift; sourceTree = "<group>"; };
+		A0020001000000000000000A /* BrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserView.swift; sourceTree = "<group>"; };
+		A0020001000000000000000B /* BrowserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserViewModel.swift; sourceTree = "<group>"; };
+		A0020001000000000000000C /* StartPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPageView.swift; sourceTree = "<group>"; };
+		A0020001000000000000000D /* TabSwitcherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSwitcherView.swift; sourceTree = "<group>"; };
+		A0020001000000000000000E /* BookmarksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksView.swift; sourceTree = "<group>"; };
+		A0020001000000000000000F /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		A00200010000000000000010 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A00200010000000000000011 /* AIAssistantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIAssistantView.swift; sourceTree = "<group>"; };
+		A00200010000000000000012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Resources/Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00300010000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00400010000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				A00400010000000000000001 /* PySearchiOS */,
+				A00400010000000000000002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00400010000000000000001 /* PySearchiOS */ = {
+			isa = PBXGroup;
+			children = (
+				A00200010000000000000001 /* PySearchiOSApp.swift */,
+				A00200010000000000000002 /* ContentView.swift */,
+				A00400010000000000000003 /* Models */,
+				A00400010000000000000004 /* Services */,
+				A00400010000000000000005 /* Browser */,
+				A00400010000000000000006 /* ViewModels */,
+				A00400010000000000000007 /* Views */,
+				A00400010000000000000008 /* Resources */,
+			);
+			path = PySearchiOS;
+			sourceTree = "<group>";
+		};
+		A00400010000000000000002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00200010000000000000000 /* PySearch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00400010000000000000003 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A00200010000000000000003 /* BrowserModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A00400010000000000000004 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A00200010000000000000004 /* SearchResolver.swift */,
+				A00200010000000000000005 /* PersistenceService.swift */,
+				A00200010000000000000006 /* AdBlockService.swift */,
+				A00200010000000000000007 /* PluginLoaderService.swift */,
+				A00200010000000000000008 /* VoiceSearchService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A00400010000000000000005 /* Browser */ = {
+			isa = PBXGroup;
+			children = (
+				A00200010000000000000009 /* WebViewStore.swift */,
+				A0020001000000000000000A /* BrowserView.swift */,
+			);
+			path = Browser;
+			sourceTree = "<group>";
+		};
+		A00400010000000000000006 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A0020001000000000000000B /* BrowserViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A00400010000000000000007 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A0020001000000000000000C /* StartPageView.swift */,
+				A0020001000000000000000D /* TabSwitcherView.swift */,
+				A0020001000000000000000E /* BookmarksView.swift */,
+				A0020001000000000000000F /* HistoryView.swift */,
+				A00200010000000000000010 /* SettingsView.swift */,
+				A00200010000000000000011 /* AIAssistantView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A00400010000000000000008 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A00200010000000000000012 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00500010000000000000001 /* PySearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00600010000000000000001 /* Build configuration list for PBXNativeTarget "PySearch" */;
+			buildPhases = (
+				A00300010000000000000002 /* Sources */,
+				A00300010000000000000001 /* Frameworks */,
+				A00300010000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PySearch;
+			productName = PySearch;
+			productReference = A00200010000000000000000 /* PySearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00700010000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A00500010000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = A00600010000000000000002 /* Build configuration list for PBXProject "PySearchiOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00400010000000000000000;
+			productRefGroup = A00400010000000000000002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00500010000000000000001 /* PySearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00300010000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00300010000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00100010000000000000001 /* PySearchiOSApp.swift in Sources */,
+				A00100010000000000000002 /* ContentView.swift in Sources */,
+				A00100010000000000000003 /* BrowserModels.swift in Sources */,
+				A00100010000000000000004 /* SearchResolver.swift in Sources */,
+				A00100010000000000000005 /* PersistenceService.swift in Sources */,
+				A00100010000000000000006 /* AdBlockService.swift in Sources */,
+				A00100010000000000000007 /* PluginLoaderService.swift in Sources */,
+				A00100010000000000000008 /* VoiceSearchService.swift in Sources */,
+				A00100010000000000000009 /* WebViewStore.swift in Sources */,
+				A0010001000000000000000A /* BrowserView.swift in Sources */,
+				A0010001000000000000000B /* BrowserViewModel.swift in Sources */,
+				A0010001000000000000000C /* StartPageView.swift in Sources */,
+				A0010001000000000000000D /* TabSwitcherView.swift in Sources */,
+				A0010001000000000000000E /* BookmarksView.swift in Sources */,
+				A0010001000000000000000F /* HistoryView.swift in Sources */,
+				A00100010000000000000010 /* SettingsView.swift in Sources */,
+				A00100010000000000000011 /* AIAssistantView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A00800010000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pysearch.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				INFOPLIST_FILE = PySearchiOS/Resources/Info.plist;
+			};
+			name = Debug;
+		};
+		A00800010000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pysearch.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				INFOPLIST_FILE = PySearchiOS/Resources/Info.plist;
+			};
+			name = Release;
+		};
+		A00800010000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+			};
+			name = Debug;
+		};
+		A00800010000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00600010000000000000001 /* Build configuration list for PBXNativeTarget "PySearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00800010000000000000001 /* Debug */,
+				A00800010000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00600010000000000000002 /* Build configuration list for PBXProject "PySearchiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00800010000000000000003 /* Debug */,
+				A00800010000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00700010000000000000001 /* Project object */;
+}
