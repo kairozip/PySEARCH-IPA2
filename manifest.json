@@ -1,7 +1,7 @@
 {
   "name": "PySearch",
   "short_name": "PySearch",
-  "start_url": ".",
+  "start_url": "browser.html",
   "display": "standalone",
   "background_color": "#0f0f0f",
   "theme_color": "#0f0f0f",
